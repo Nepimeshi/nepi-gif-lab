@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Nepi GIF Lab</string>
+    <string name="app_tagline">Offline Video to GIF Lab</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_back">Back</string>
+
+    <!-- Home -->
+    <string name="home_import_video">Import Video</string>
+    <string name="home_import_video_subtitle">Select a clip to trim, crop &amp; craft</string>
+    <string name="home_batch_convert">Batch Convert</string>
+    <string name="home_batch_convert_subtitle">Convert multiple videos at once</string>
+    <string name="home_recent_conversions">Recent Conversions</string>
+    <string name="home_see_all">See All</string>
+    <string name="home_empty_title">No GIFs crafted yet</string>
+    <string name="home_empty_subtitle">Import a video from your device to begin. Everything runs locally and offline.</string>
+    <string name="home_offline_badge">100% Offline Engine</string>
+
+    <!-- Editor -->
+    <string name="editor_title">Studio Editor</string>
+    <string name="editor_export">Export GIF</string>
+    <string name="editor_preview_original">Original</string>
+    <string name="editor_preview_gif">GIF Preview</string>
+    <string name="editor_estimated_size">Estimated size: %1$s</string>
+    <string name="editor_estimating">Estimating size…</string>
+    <string name="editor_estimate_label">Estimate</string>
+    <string name="editor_tab_trim_crop">Trim &amp; Crop</string>
+    <string name="editor_tab_resolution_timing">Size &amp; Motion</string>
+    <string name="editor_tab_color_dither">Color &amp; Dither</string>
+    <string name="editor_reset_defaults">Reset Defaults</string>
+    <string name="editor_play">Play</string>
+    <string name="editor_pause">Pause</string>
+    <string name="editor_prev_frame">Previous frame</string>
+    <string name="editor_next_frame">Next frame</string>
+    <string name="editor_start_time">Start</string>
+    <string name="editor_end_time">End</string>
+    <string name="editor_rotate_90">Rotate 90°</string>
+    <string name="editor_reset_crop">Reset Crop</string>
+    <string name="editor_crop_width">Crop Width (px)</string>
+    <string name="editor_crop_height">Crop Height (px)</string>
+    <string name="editor_resolution_section">Output Resolution</string>
+    <string name="editor_fps_section">Frame Rate (FPS)</string>
+    <string name="editor_speed_section">Playback Speed</string>
+    <string name="editor_playback_effects">Loop &amp; Direction</string>
+    <string name="editor_reverse_playback">Reverse Playback</string>
+    <string name="editor_reverse_subtitle">Play frames backwards</string>
+    <string name="editor_ping_pong">Ping-Pong Loop</string>
+    <string name="editor_ping_pong_subtitle">Forward then smooth reverse loop</string>
+    <string name="editor_color_section">Color Palette</string>
+    <string name="editor_dither_section">Dithering Algorithm</string>
+    <string name="editor_custom_value">Custom</string>
+    <string name="editor_rendering_preview">Rendering live GIF preview…</string>
+
+    <!-- Export -->
+    <string name="export_title">Export GIF</string>
+    <string name="export_cancel">Cancel Export</string>
+    <string name="export_cancelling">Cancelling…</string>
+    <string name="export_success_title">Saved to Gallery</string>
+    <string name="export_success_folder">Pictures/Nepi GIF Lab</string>
+    <string name="export_share">Share GIF</string>
+    <string name="export_open">Open in Viewer</string>
+    <string name="export_done">Done</string>
+    <string name="export_retry">Try Again</string>
+    <string name="export_stat_dimensions">Dimensions</string>
+    <string name="export_stat_fps">Frame Rate</string>
+    <string name="export_stat_duration">Duration</string>
+    <string name="export_stat_size">Actual Size</string>
+    <string name="export_stat_frames">Frames</string>
+    <string name="export_stat_palette">Palette</string>
+
+    <!-- Batch -->
+    <string name="batch_title">Batch Conversion</string>
+    <string name="batch_add_videos">Add Videos</string>
+    <string name="batch_start">Convert All (%1$d)</string>
+    <string name="batch_cancel_queue">Cancel Queue</string>
+    <string name="batch_overall_progress">Overall Progress</string>
+    <string name="batch_settings_summary">Shared Conversion Settings</string>
+    <string name="batch_edit_settings">Customize</string>
+    <string name="batch_empty">Select multiple videos to build a conversion queue.</string>
+    <string name="batch_remove">Remove</string>
+
+    <!-- History -->
+    <string name="history_title">Conversion History</string>
+    <string name="history_empty_title">History is empty</string>
+    <string name="history_empty_subtitle">Your exported GIFs will appear here with specs and quick actions.</string>
+    <string name="history_open">Open</string>
+    <string name="history_share">Share</string>
+    <string name="history_delete">Delete</string>
+    <string name="history_delete_confirm_title">Delete GIF?</string>
+    <string name="history_delete_confirm_body">Remove this item from conversion history? You can also delete the file from your gallery.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme_dark">Dark (Default)</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_defaults">Conversion Defaults</string>
+    <string name="settings_reset_all">Reset Saved Settings</string>
+    <string name="settings_storage_info">Output Folder: Pictures/Nepi GIF Lab</string>
+    <string name="settings_engine_info">Pure offline native encoder (GIF89a) — no uploads or cloud servers.</string>
+</resources>

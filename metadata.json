@@ -1,0 +1,6 @@
+{
+  "name": "Nepi GIF Lab",
+  "description": "Free, offline native Android video-to-GIF lab with Original Source FPS & VFR timing, frame-accurate trimming, interactive cropping, custom color quantization, dithering, live GIF preview, realistic file-size estimation, and batch conversion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

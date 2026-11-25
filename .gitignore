@@ -1,0 +1,75 @@
+# Built application & generated package files
+*.apk
+*.ap_
+*.aab
+*.dex
+app/release/
+**/release/
+
+# Java / Kotlin class files
+*.class
+
+# Log, heap dump, and temporary files
+*.log
+*.tmp
+*.bak
+*.hprof
+
+# Gradle caches and build directories
+.gradle/
+**/.gradle/
+build/
+**/build/
+/build
+
+# Local configuration files
+local.properties
+**/local.properties
+
+# Keystores, certificates, and signing keys
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+debug.keystore
+debug.keystore.base64
+my-upload-key.jks
+
+# Signing passwords, secrets, and environment files
+keystore.properties
+signing.properties
+secrets.properties
+signing-passwords.txt
+google-services.json
+.env
+.env.*
+!.env.example
+
+# Android Studio, IntelliJ IDEA & AI tooling local caches
+*.iml
+.idea/
+.kotlin/
+.externalNativeBuild/
+.cxx/
+/captures
+.aistudio/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+# Private environment and signing credentials
+.env
+.env.*
+!.env.example
+keystore.properties
+**/keystore.properties
+
+# Android Studio personal settings
+.idea/
+*.iml
+
+# Native build outputs
+.cxx/
+.externalNativeBuild/
