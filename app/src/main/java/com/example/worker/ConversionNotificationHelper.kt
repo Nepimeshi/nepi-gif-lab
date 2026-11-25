@@ -17,7 +17,7 @@ import androidx.core.content.ContextCompat
 import androidx.work.Data
 import androidx.work.ForegroundInfo
 import com.example.MainActivity
-import com.example.R
+import com.nepimeshi.nepigiflab.R
 import com.example.StudioRoutes
 import com.example.engine.GalleryExporter
 import com.example.engine.OutputFormat

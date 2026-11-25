@@ -2,13 +2,27 @@
 
 All notable changes to **Nepi GIF Lab** are documented in this file.
 
-> **Version history note:** This workspace does not yet contain a Git commit history or release tags. Current Gradle metadata defines `versionName = "1.0"` (`versionCode = 1`). Changes prior to the first tagged public release are summarized chronologically below under **Pre-release Development History** based on the implemented codebase.
+---
+
+## v1.2.6 (`versionCode 3`)
+
+### Changed
+- Migrated Android `applicationId` and Gradle `namespace` from `com.aistudio.gifstudio.vqxkrm` / `com.example` to `com.nepimeshi.nepigiflab`.
+- Updated `AndroidManifest.xml` component class names and generated `R` / `BuildConfig` imports for clean resolution under `com.nepimeshi.nepigiflab` while preserving `${applicationId}.fileprovider`.
+- Updated `README.md` with the new Application ID, version metadata, and verified cryptocurrency donation addresses and transfer guidance.
+
+> **Upgrade note:** Because `applicationId` changed from `com.aistudio.gifstudio.vqxkrm` to `com.nepimeshi.nepigiflab`, Android treats `v1.2.6` as a distinct app installation from earlier pre-release test builds.
 
 ---
 
-## Current Build — `1.0` (`versionCode 1`)
+## v1.2.5 (`versionCode 2`)
 
-### Pre-release Development History
+### Changed
+- Restored the `release` Gradle signing configuration and added AGP 9.1.1-compatible automatic versioned release APK naming (`Nepi-GIF-Lab-v{versionName}.apk`).
+
+---
+
+## Pre-release Development History (`1.0`, `versionCode 1`)
 
 #### Core Offline Video-to-GIF Studio
 - Built the native Android UI in Kotlin and Jetpack Compose (Material 3) with a charcoal dark theme, lavender accents, and custom Nepi mascot branding.

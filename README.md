@@ -192,7 +192,7 @@ $env:STORE_PASSWORD="your-store-password"
 $env:KEY_PASSWORD="your-key-password"
 .\gradlew.bat :app:assembleRelease
 ```
-Output APK: `app/build/outputs/apk/release/app-release.apk`
+Output APK: `app/build/outputs/apk/release/Nepi-GIF-Lab-v{versionName}.apk`
 
 ---
 
@@ -201,8 +201,8 @@ Output APK: `app/build/outputs/apk/release/app-release.apk`
 | Specification | Value |
 | :--- | :--- |
 | **Application Name** | Nepi GIF Lab |
-| **Application ID** | `com.aistudio.gifstudio.vqxkrm` |
-| **Version** | `1.0` (`versionCode = 1`) |
+| **Application ID** | `com.nepimeshi.nepigiflab` |
+| **Version** | `1.2.6` (`versionCode = 3`) |
 | **Minimum SDK** | Android 7.0 (API Level 24) |
 | **Target / Compile SDK** | Android 16 (API Level 36) |
 | **Language & UI** | Kotlin, Jetpack Compose (Material 3) |
@@ -214,9 +214,9 @@ Output APK: `app/build/outputs/apk/release/app-release.apk`
 
 ## Changelog
 
-Current build: **`1.0` (`versionCode 1`)** — includes Video & Animated GIF import, GIF89a and compatibility-first Animated WebP export, viewport-aware live previews, saved presets, target file size optimization, batch queue management, Share-to-Nepi intents, and an optional offline crypto donation section.
+Current release: **`v1.2.6` (`versionCode 3`)** — updates the Android Application ID and namespace to `com.nepimeshi.nepigiflab`, adds automatic versioned release APK naming (`Nepi-GIF-Lab-v{versionName}.apk`), and builds on full Video & Animated GIF import, GIF89a and compatibility-first Animated WebP export, viewport-aware live previews, saved presets, target file size optimization, batch queue management, Share-to-Nepi intents, and optional offline cryptocurrency donations.
 
-See [`CHANGELOG.md`](./CHANGELOG.md) for the full pre-release development history.
+See [`CHANGELOG.md`](./CHANGELOG.md) for the full release and development history.
 
 ---
 

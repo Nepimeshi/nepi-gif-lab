@@ -46,7 +46,7 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.example.R
+import com.nepimeshi.nepigiflab.R
 import com.example.data.ConversionHistoryEntity
 import com.example.engine.StudioFormatters
 import com.example.ui.components.LocalStudioHaptics

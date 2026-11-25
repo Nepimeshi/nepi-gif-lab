@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:label="@string/app_name"
@@ -54,7 +54,7 @@
         </activity>
 
         <receiver
-            android:name=".worker.ConversionActionReceiver"
+            android:name="com.example.worker.ConversionActionReceiver"
             android:exported="false" />
 
         <provider
