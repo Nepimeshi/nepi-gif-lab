@@ -31,19 +31,17 @@ Nepi GIF Lab unifies **Video-to-GIF / Animated WebP conversion** and **GIF-to-GI
 
 ---
 
+
 ## Screenshots
 
-<!--
-Replace these placeholders with screenshots from your build before publishing a release.
--->
-
 | Home & Media Import | Trim & Crop Editor | Quality & Output Controls |
-| :---: | :---: | :---: |
-| *[Placeholder: Home Screen]* | *[Placeholder: Trim & Crop]* | *[Placeholder: Quality & Format]* |
+|:---:|:---:|:---:|
+| <img src="screenshots/home.png" width="260" /> | <img src="screenshots/trim-crop.png" width="260" /> | <img src="screenshots/quality-output.png" width="260" /> |
 
 | Live Output Preview | Target Size & Presets | Batch Queue & History |
-| :---: | :---: | :---: |
-| *[Placeholder: Live Preview]* | *[Placeholder: Presets & Target Size]* | *[Placeholder: Batch Queue]* |
+|:---:|:---:|:---:|
+| <img src="screenshots/live-preview.png" width="260" /> | <img src="screenshots/presets.png" width="260" /> | <img src="screenshots/batch-queue.png" width="260" /> |
+
 
 ---
 
