@@ -220,4 +220,4 @@ See [`CHANGELOG.md`](./CHANGELOG.md) for the full release and development histor
 
 ## License
 
-No `LICENSE` file has been added to this repository yet. Please add a license before redistributing or accepting external contributions.
+This project is licensed under the [MIT License](LICENSE).
